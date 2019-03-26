@@ -1820,6 +1820,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     sendContact: function sendContact() {
+      alert();
       var formData = new FormData();
       formData.append('name', this.contact.name);
       formData.append('email', this.contact.email);
@@ -1827,7 +1828,7 @@ __webpack_require__.r(__webpack_exports__);
       formData.append('message', this.contact.message);
       formData.append('file', this.contact.file);
       var self = this;
-      axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('/api/contacts/', formData, {
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('/api/contacts', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }

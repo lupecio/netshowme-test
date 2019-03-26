@@ -64,7 +64,7 @@
 
                 let self = this
 
-                axios.post('/api/contacts/', formData, {
+                axios.post('/api/contacts', formData, {
                     headers: {
                         'Content-Type': 'multipart/form-data'
                     }

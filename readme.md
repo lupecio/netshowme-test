@@ -23,6 +23,8 @@ php artisan migrate
 
 Update mail username and password with your credentials on .env file.
 
+Update email reference to receive emails from contact on .env file.
+
 ## Test
 
 Change name of the test database on phpunit.xml file.

@@ -1820,7 +1820,6 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     sendContact: function sendContact() {
-      alert();
       var formData = new FormData();
       formData.append('name', this.contact.name);
       formData.append('email', this.contact.email);
